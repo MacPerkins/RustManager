@@ -1,14 +1,10 @@
 # Overview: Rust Manager
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program is to demonstrate my current knowledge of the Rust language as part of building up an online software portfolio.
 
-{Provide a description of the software that you wrote to demonstrate the Rust language.}
+The program, **p_manager** enables users to create usernames and passwords in a password manager. These are stored through structures and Vecs, which enable setting and retrieving of accounts and passwords.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+My purpose in writing this program is to show my current knowledge of variables, expressions, conditionals, loops, functions, data structures(vec), and object oriented techniques(struct, impl) within the Rust language.
 
 # Development Environment
 
@@ -18,7 +14,7 @@ This Rust language program uses the **std::io** to read user input and flush the
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Websites used during research and development.
 
 - [Rust-Lang - Rust Programming Book](https://doc.rust-lang.org/book/index.html)
 - [Tutorials Point - Rust Tutorials for Beginners](https://www.tutorialspoint.com/rust/index.htm)
