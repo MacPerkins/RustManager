@@ -12,16 +12,16 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This program uses Rust as its programming language. To use Rust, you are required to install **rustup**, and the Rust Analyzer on Visual Studio Code.
 
-{Describe the programming language that you used and any libraries.}
+This Rust language program uses the **std::io** to read user input and flush the output. It also uses **std::collections::Vec** to create and use Vecs.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Rust-Lang - Rust Programming Book](https://doc.rust-lang.org/book/index.html)
+- [Tutorials Point - Rust Tutorials for Beginners](https://www.tutorialspoint.com/rust/index.htm)
 
 # Future Work
 
