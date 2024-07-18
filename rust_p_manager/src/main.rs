@@ -5,10 +5,11 @@ fn greeting() { // Sends a greeting to the user
 } 
 
 fn build_menu() { // Builds the menu options 
-    println!("-----MENU-----"); 
+    println!("\n-----MENU-----"); 
     println!("1. Add a Password"); 
     println!("2. Get Password"); 
     println!("3. List Accounts"); 
+    println!("4. Exit Program");
 } 
 
 fn main() { 
@@ -24,13 +25,13 @@ fn main() {
             Ok(num) => num, Err(_) => continue, };
             
         if choice == 1 { // Add Password
-            println!("Adding password");
+            println!("\nAdding password");
         } else if choice == 2 {  // Get Password
-            println!("Getting password");
+            println!("\nGetting password");
         } else if choice == 3 {  // List all accounts
-            println!("Accounts: ");
+            println!("\nAccounts: ");
         } else if choice == 4 {
-            println!("Closing program. Goodbye!");
+            println!("\nClosing program. Goodbye!");
             break;
         }
     }
