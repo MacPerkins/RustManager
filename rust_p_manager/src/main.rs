@@ -81,14 +81,16 @@ fn main() {
         } else if choice == 3 {  // List all accounts
             println!("\nAccounts: ");
             password_manager.list_accounts();
-        } else if choice == 4 {
+        } else if choice == 4 {     // Ends program
             println!("\nClosing program. Goodbye!");
             break;
+        } else {    // Validates the options to only inlcud the ones given
+            println!("Invalid option. Try again!");
         }
     }
 }
 
-fn get_account_password() -> (String, String) { // Gets a password by the account name
+fn get_account_password() -> (String, String) { // Gets user input for an account name and account password
     print!("Enter account: ");
     io::stdout().flush().unwrap();
     let mut account = String::new();
