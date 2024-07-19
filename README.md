@@ -21,6 +21,6 @@ Websites used during research and development.
 
 # Future Work
 
-- Item 1
-- Item 2
-- Item 3
+- Add ability to write account and passwords to a file.
+- Add ability to change password for a certain account.
+- Add hashing or encrption to passwords.
